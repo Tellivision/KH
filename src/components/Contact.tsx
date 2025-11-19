@@ -7,15 +7,17 @@ export default function Contact() {
     return (
         <Section id="contact" className="bg-white">
             <div className="container mx-auto px-4 md:px-6">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+                <div className="max-w-3xl mb-12">
+                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Get in Touch</h2>
+                    <p className="text-slate-600 text-lg">
+                        Ready to upgrade your home comfort? Contact us today for a quote or service request.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
 
                     {/* Contact Info */}
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Get in Touch</h2>
-                        <p className="text-slate-600 text-lg mb-12">
-                            Ready to upgrade your home comfort? Contact us today for a quote or service request.
-                        </p>
-
                         <div className="space-y-8">
                             <div className="flex items-start gap-4">
                                 <div className="bg-blue-50 p-3 rounded-lg text-blue-600">
