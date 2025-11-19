@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <Section id="contact" className="bg-white">
             <div className="container mx-auto px-4 md:px-6">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
 
                     {/* Contact Info */}
                     <div>
